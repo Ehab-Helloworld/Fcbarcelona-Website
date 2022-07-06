@@ -1,0 +1,1436 @@
+.dark-mode {
+    background: #222;
+    color: white;
+}
+
+.topnav {
+    background-color: #222;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .topnav {
+    display: flex;
+}
+
+.header .topnav .logo {
+    width: 300px;
+}
+
+.header .topnav .logo:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.barcelonaa {
+    display: flex;
+    justify-content: center;
+}
+
+.BARCELONA {
+    font-size: 30px;
+    font-weight: 800px;
+    margin-right: 290px;
+    color: white;
+}
+
+.BARCELONAA {
+    font-size: 30px;
+    font-weight: 800px;
+    color: white;
+}
+
+.subscribe {
+    justify-content: center;
+    transition: 0.5s;
+    transition: all 500ms ease-out;
+}
+
+.subscribe a {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    justify-content: center;
+    background-color: red;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .7);
+    padding: 5px;
+}
+
+.subscribe:hover {
+    transform: scale(1.1);
+}
+
+.subscribe a:hover {
+    transform: scale(1.1);
+    background: linear-gradient(to right, #a71c3f 0%, #7c2753 30%, #4f3369 100%);
+}
+
+.btn {
+    background-color: black;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid black;
+}
+
+.btn img {
+    width: 30px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .7);
+}
+
+.links {
+    font-size: 22px;
+    background: linear-gradient(96deg, red, blue);
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    overflow: hidden;
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+    padding: 14px 16px;
+    min-height: 1vh;
+}
+
+.links .active {
+    background-color: #222;
+}
+
+.links a:hover {
+    background-color: #222;
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.img1 {
+    background-image: url(gavi-equipacio-desk.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: fit-content;
+}
+
+.img2 {
+    background-image: url(gavi-equipacio-desk.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img3 {
+    background-image: url(gavi-equipacio-desk.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img4 {
+    background-image: url(gavi-equipacio-desk.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img5 {
+    background-image: url(gavi-equipacio-desk.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img6 {
+    background-image: url(827764.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    height: 100vh;
+}
+
+.containerS {
+    width: 80%;
+    margin: auto;
+    height: 100vh;
+}
+
+.containerB {
+    width: 90%;
+    margin: auto;
+    height: 100vh;
+}
+
+.sponsarimages {
+    align-items: center;
+    text-align: center;
+}
+
+.sponsarimages img {
+    width: 80%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+}
+
+.Sponsar {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800px;
+}
+
+.playerspotifay {
+    text-align: center;
+    align-items: center;
+}
+
+.playerspotifay h3 {
+    font-size: 30px;
+    font-weight: 800px;
+}
+
+.playerspotifay img {
+    width: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+    /* -webkit-filter: grayscale(100%);  Safari 6.0 - 9.0 
+filter: grayscale(100%);*/
+}
+
+.latestphoto {
+    text-align: center;
+    align-items: center;
+}
+
+.latestphoto h2 {
+    font-size: 30px;
+    font-weight: 800px;
+}
+
+.row {
+    display: flex;
+}
+
+.row img {
+    width: 100%;
+    padding: 5px;
+    background-color: #222;
+    display: block;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+}
+
+
+/*
+.row:hover{
+background: linear-gradient(135deg, blue, red);
+
+
+}
+*/
+
+.row {
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    margin: 30px;
+    transition: 0.5s;
+}
+
+.container::before {
+    content: "";
+    width: 50px;
+    background-color: #deb506;
+    position: absolute;
+    height: 100%;
+    right: 0%;
+    margin-top: 340px;
+    background-color: red;
+}
+
+.containerS::before {
+    content: "";
+    width: 50px;
+    position: absolute;
+    height: 100%;
+    right: 0%;
+    margin-top: 340px;
+}
+
+.sponsarimages::before {
+    content: "";
+    width: 50px;
+    background-color: #deb506;
+    position: absolute;
+    margin-top: 55px;
+    height: 100%;
+    left: 0%;
+}
+
+.row::before {
+    content: "";
+    width: 50px;
+    background-color: #222;
+    position: absolute;
+    height: 72%;
+    left: 0%;
+}
+
+.row::after {
+    content: "";
+    width: 50px;
+    background-color: #222;
+    position: absolute;
+    height: 72%;
+    right: 0%;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity: 0;
+    margin: auto;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.test {
+    position: relative;
+    margin: 10px;
+}
+
+.test img:hover {
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+
+/* When you mouse over the container, fade in the overlay title */
+
+.overlay:hover {
+    opacity: 1;
+}
+
+.test::before {
+    content: "";
+    width: 30px;
+    background-color: #deb506;
+    position: absolute;
+    height: 72%;
+    left: 0%;
+}
+
+* {
+    box-sizing: border-box
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 30px;
+    font-weight: 800px;
+    color: white;
+    padding-top: 32px;
+}
+
+.contact {
+    background-color: #181733;
+    height: 46%;
+}
+
+.contact .sociallogo {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.contact .facebook {
+    height: 100%;
+    width: 15%;
+    background-color: #3b5998;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 8px;
+    padding-top: 5px;
+    margin: 5px;
+    border-radius: 3px;
+}
+
+.contact .facebook h3 {
+    font-size: 25px;
+    font-weight: 800px;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+
+.contact .instagram {
+    height: 100%;
+    width: 15%;
+    background: linear-gradient(90deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 8px;
+    padding-top: 5px;
+    margin: 5px;
+    border-radius: 3px;
+}
+
+.contact .instagram h3 {
+    font-size: 25px;
+    font-weight: 800px;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+
+.contact .twitter {
+    height: 100%;
+    width: 15%;
+    background-color: #55acee;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 8px;
+    padding-top: 5px;
+    margin: 5px;
+    border-radius: 3px;
+}
+
+.contact .twitter h3 {
+    font-size: 25px;
+    font-weight: 800px;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+
+.contact .youtube {
+    height: 100%;
+    width: 15%;
+    background-color: #bb0000;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 8px;
+    padding-top: 5px;
+    margin: 5px;
+    border-radius: 3px;
+}
+
+.contact .youtube h3 {
+    font-size: 25px;
+    font-weight: 800px;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+
+.facebook:hover {
+    cursor: pointer;
+    border-radius: 7px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+    opacity: 0.7;
+    border: 2px solid white;
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.instagram:hover {
+    cursor: pointer;
+    border-radius: 7px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+    opacity: 0.7;
+    border: 2px solid white;
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.twitter:hover {
+    cursor: pointer;
+    border-radius: 7px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+    opacity: 0.7;
+    border: 2px solid white;
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.youtube:hover {
+    cursor: pointer;
+    border-radius: 7px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+    opacity: 0.7;
+    border: 2px solid white;
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.top {
+    margin-left: 108%;
+}
+
+.down {
+    width: 100%;
+    height: 4vh;
+    color: #222;
+    background-color: #222;
+}
+
+.footer {
+    background-color: #181733;
+}
+
+.players {
+    background-color: #181733;
+    margin-top: 3680px;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.playersS {
+    background-color: #181733;
+    margin-top: 675vh;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.sections h2 {
+    color: white;
+    padding-left: 5px;
+    margin-bottom: 0;
+}
+
+.players a {
+    text-decoration: none;
+    color: white;
+}
+
+.players ul {
+    list-style: none;
+}
+
+.players a:hover {
+    text-decoration: underline;
+}
+
+.playersS a {
+    text-decoration: none;
+    color: white;
+}
+
+.playersS ul {
+    list-style: none;
+}
+
+.playersS a:hover {
+    text-decoration: underline;
+}
+
+.nav-img {
+    width: 300px;
+    top: 0;
+}
+
+.down-footer {
+    width: 99.9%;
+    height: 17px;
+    background: linear-gradient(96deg, #b51838, #712a58, #273d7c);
+    ;
+    margin: 0;
+}
+
+.men .main {
+    background-image: url(./ehab.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+}
+
+.men .main .discover {
+    text-align: left;
+    font-size: 50px;
+    font-weight: 800px;
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 20px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.allVideo {
+    height: 100%;
+    height: 70vh;
+}
+
+.videoC {
+    margin-top: 10px;
+    height: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+}
+
+.videos {
+    width: 63%;
+    height: 100%;
+    background-color: #0e0e28;
+}
+
+.videos video {
+    width: 100%;
+    height: 100%;
+}
+
+.title {}
+
+.titleBarcaTv {
+    color: #deb506;
+    font-size: 30px;
+    font-weight: 800px;
+    text-align: center;
+    align-items: center;
+    height: 100%;
+    width: 37%;
+}
+
+.titleBarcaTv .see {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    background-color: #222;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+}
+
+.see:hover {
+    margin-top: 10px;
+    cursor: pointer;
+    opacity: 0.7;
+    background: linear-gradient(to right, #a71c3f 0%, #7c2753 30%, #4f3369 100%);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+}
+
+.div-b {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+
+.div-btn {
+    background-color: white;
+    width: 20px;
+    height: 3px;
+    margin: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+}
+
+.div-btn:hover {
+    cursor: pointer;
+    background: #deb506;
+}
+
+#text {
+    color: white;
+}
+
+#bodyB {
+    background-color: #0e0e28;
+}
+
+.men .main a {
+    text-align: center;
+    display: flex;
+    font-size: 30px;
+    font-weight: 400px;
+    padding-top: 30px;
+    padding-left: 20px;
+    color: #bb0000;
+    text-transform: uppercase;
+}
+
+.men img {
+    height: 100%;
+    width: 100%;
+}
+
+.men h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800px;
+}
+
+.buy {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.test .buy button {
+    width: 50%;
+    height: 5vh;
+    background-color: #deb506;
+    border-radius: 4px;
+    color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    transition: 0.5;
+}
+
+.test .buy button:hover {
+    width: 100%;
+    cursor: pointer;
+    transition: 0.4 ease;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+    border-radius: 7px;
+    margin-top: 10px;
+}
+
+.women .main {
+    background-image: url(../images/Foto-Alexia-Putellas-.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+}
+
+.women .main .discover {
+    text-align: left;
+    font-size: 50px;
+    font-weight: 800px;
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 20px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.women .main a {
+    text-align: center;
+    display: flex;
+    font-size: 30px;
+    font-weight: 400px;
+    padding-top: 30px;
+    padding-left: 20px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.women img {
+    height: 100%;
+    width: 100%;
+}
+
+.women h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800px;
+}
+
+.main-photo {
+    background-image: url(../images/wallpaperflare.com_wallpaper\(11\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.lalega-icon {
+    text-align: center;
+}
+
+.lalega-icon svg {
+    padding-top: 30px;
+    width: 250px;
+}
+
+.match-day {
+    color: white;
+    font-size: 40px;
+    font-weight: 400px;
+}
+
+.main-photo h3 {
+    text-align: center;
+}
+
+.main-photo {
+    align-items: center;
+    justify-content: center;
+}
+
+.time {
+    color: #deb506;
+    font-size: 40px;
+    font-weight: 400px;
+}
+
+.time h1 {
+    text-align: center;
+}
+
+.kickoff {
+    display: flex;
+}
+
+.kickoff h1 {
+    font-size: 40px;
+    padding-left: 200px;
+    color: white;
+}
+
+.FCBARCELONA {
+    display: flex;
+}
+
+.FCBARCELONA {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+.FCBARCELONA h1 {
+    margin: 15px;
+}
+
+.kickoff .FCBARCELONA .icon-fc svg {
+    width: 100px;
+    margin-left: 15px;
+}
+
+.start {
+    text-align: center;
+    color: white;
+    display: flex;
+    margin-left: 15px;
+}
+
+.start h2 {
+    font-size: 70px;
+    font-weight: 400px;
+    margin-top: 0;
+}
+
+.via {
+    display: flex;
+}
+
+.vi h1 {
+    margin: 20px;
+    text-align: center;
+    padding-left: 0;
+}
+
+.kickoff .via .icon-vi svg {
+    width: 75px;
+    margin-left: 30px;
+}
+
+.book {
+    display: flex;
+    justify-content: center;
+}
+
+.book a {
+    text-decoration: none;
+    color: #deb506;
+    font-size: 30px;
+    font-weight: bol;
+    border: 7px #222 solid;
+    padding: 8px;
+    background-color: #222;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+}
+
+.book a:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+    margin-top: 9px;
+}
+
+.history-img {
+    align-items: center;
+    text-align: center;
+}
+
+.history-img img {
+    width: 80%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+    width: 100%;
+}
+
+.history-img::before {
+    content: "";
+    width: 50px;
+    background-color: #deb506;
+    position: absolute;
+    margin-top: 55px;
+    height: 100%;
+    left: 0%;
+}
+
+.title h1 {
+    font-size: 50px;
+    font-weight: bold;
+    background: linear-gradient(to right, #a71c3f 0%, #7c2753 30%, #4f3369 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+p {
+    font-size: 27px;
+    font-weight: bold;
+    margin: 40px;
+}
+
+.article {
+    padding: 20px;
+}
+
+.article2 {
+    padding: 20px;
+}
+
+.article2 p {
+    margin: 40px;
+}
+
+.article::before {
+    content: "";
+    width: 50px;
+    background-color: #deb506;
+    position: absolute;
+    height: 100%;
+    left: 0%;
+    margin-top: 260px;
+    background-color: #0c1e8a;
+}
+
+.article2::before {
+    content: "";
+    width: 50px;
+    background-color: #deb506;
+    position: absolute;
+    height: 100%;
+    right: 0%;
+    background-color: #deb506;
+}
+
+.article3 {
+    padding: 20px;
+}
+
+.article3 p {
+    margin: 40px;
+}
+
+.article3::before {
+    content: "";
+    width: 50px;
+    background-color: red;
+    position: absolute;
+    height: 100%;
+    left: 0%;
+    background-color: #0c1e8a;
+}
+
+.playersA {
+    background-color: #181733;
+    margin-top: 376vh;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.sections h2 {
+    color: white;
+    padding-left: 5px;
+    margin-bottom: 0;
+}
+
+.playersA a {
+    text-decoration: none;
+    color: white;
+}
+
+.playersA ul {
+    list-style: none;
+}
+
+.playersA a:hover {
+    text-decoration: underline;
+}
+
+.cardsB {
+    width: 100%;
+    height: 90vh;
+    margin-top: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+}
+
+.rowB {
+    margin: auto;
+}
+
+.rowB h2 {
+    color: #deb506;
+    font-size: 30px;
+    font-weight: 400px;
+    text-align: center;
+    padding: 30px;
+}
+
+.hRow {
+    display: flex;
+    justify-content: center;
+}
+
+.movie1 {
+    width: 300px;
+    height: 378px;
+    background-image: url(../images/1-COVER.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    transition: all 100ms ease-out;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.ehab {
+    transition: all 100ms ease-out;
+    border-radius: 5px;
+}
+
+.ehab:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+}
+
+.under {
+    width: 300px;
+    height: 20%;
+    background-color: #0e0e28;
+    margin-right: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    transition: all 100ms ease-out;
+}
+
+.under h3 {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: 400px;
+    margin-top: 0px;
+    padding-top: 30px;
+}
+
+.movie2 {
+    width: 300px;
+    height: 80%;
+    background-image: url(../images/2-COVER.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px 5px 0px 0px;
+    margin-right: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    transition: all 100ms ease-out;
+}
+
+.movie3 {
+    width: 300px;
+    height: 80%;
+    background-image: url(../images/3-COVER.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px 5px 0px 0px;
+    margin-right: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    transition: all 100ms ease-out;
+}
+
+.movie4 {
+    width: 300px;
+    height: 80%;
+    background-image: url(../images/4-COVER.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px 5px 0px 0px;
+    margin-right: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    transition: all 100ms ease-out;
+}
+
+.movieS1 {
+    width: 300px;
+    height: 378px;
+    background-image: url(../images/1-MATCH.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    transition: all 100ms ease-out;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.movieS2 {
+    width: 300px;
+    height: 378px;
+    background-image: url(../images/2-MATCH.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    transition: all 100ms ease-out;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.movieS3 {
+    width: 300px;
+    height: 378px;
+    background-image: url(../images/3-MATCH.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    transition: all 100ms ease-out;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.movieS4 {
+    width: 300px;
+    height: 378px;
+    background-image: url(../images/4-MATCH.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    transition: all 100ms ease-out;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.videoC::before {
+    content: "";
+    width: 30px;
+    background-color: #deb506;
+    position: absolute;
+    height: 72%;
+    right: 0%;
+}
+
+.videoC::after {
+    content: "";
+    width: 30px;
+    background-color: #deb506;
+    position: absolute;
+    height: 72%;
+    left: 0%;
+}
+
+.ligend {
+    width: 100%;
+    height: 87vh;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.messi {
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+.messi h1 {
+    color: #deb506;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.cardco {
+    display: flex;
+}
+
+.cardM {
+    width: 25%;
+    height: 100%;
+    background-color: #ffffff;
+    text-align: center;
+    color: #deb506;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: 4px solid rgb(222, 181, 6);
+    margin: 17px;
+    box-shadow: 0 0 20px rgba(222, 181, 6, 0.3);
+    transition: all 100ms ease-out;
+    border-radius: 0px 0px 2px 2px;
+}
+
+.de {
+    height: 57vh;
+    width: 100%;
+}
+
+.cardM img {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.cardM p {
+    margin: 2px;
+}
+
+.cardM:hover {
+    cursor: pointer;
+    box-shadow: 0 0 20px rgba(222, 181, 6, 0.8);
+    transform: scale(1.02);
+    border-radius: 5px;
+}
+
+.playersV {
+    background-color: #181733;
+    margin-top: 3680px;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.playersV {
+    background-color: #181733;
+    margin-top: 303vh;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.sections h2 {
+    color: white;
+    padding-left: 5px;
+    margin-bottom: 0;
+}
+
+.playersV a {
+    text-decoration: none;
+    color: white;
+}
+
+.playersV ul {
+    list-style: none;
+}
+
+.playersV a:hover {
+    text-decoration: underline;
+}
+
+.playersV a {
+    text-decoration: none;
+    color: white;
+}
+
+.playersV ul {
+    list-style: none;
+}
+
+.playersV a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    height: 110vh;
+    width: 100%;
+    background-color: #181733;
+    ;
+    background-size: cover;
+}
+
+.photo {
+    width: 50%;
+    float: right;
+    height: 100%;
+    background-image: url(../images/wallpaperflare.com_wallpaper\(10\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.left {
+    width: 50%;
+    float: left;
+    text-align: center;
+    height: 100%;
+}
+
+.left img {
+    width: 70px;
+    height: 70px;
+    margin-top: 32px;
+}
+
+.left h1 {
+    color: #deb506;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: black 2px;
+}
+
+.left h3 {
+    color: #deb506;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 30px;
+    text-shadow: black 2px;
+}
+
+.form {}
+
+input {
+    width: 70%;
+    height: 45px;
+    background-color: transparent;
+    border-radius: 3px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 10px;
+    transition: all 650ms ease;
+}
+
+input:hover {
+    transform: scale(1.1);
+}
+
+.separator {
+    color: #ffffff;
+    font-size: 25px;
+    padding-top: 20px;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+}
+
+.email:invalid {
+    border: 2px solid red;
+}
+
+.S {
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    width: 25%;
+    height: 40px;
+    font-weight: bold;
+    border: 0;
+}
+
+.S:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+.submet {
+    margin-top: 33px;
+    width: 32%;
+    padding: 12px;
+    background-color: #cf122d;
+    border: 0px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
+    height: 50px;
+    color: white;
+    font-weight: bold;
+}
+
+.submet:hover {
+    cursor: pointer;
+    background: linear-gradient(96deg, #b51939, #7a2855, #293d7b);
+}
+.alreadyhaveanaccount {
+    margin-top: 20px;
+    margin-bottom: 0;
+  
+}
+.alreadyhaveanaccount span{
+
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.alreadyhaveanaccount a{
+
+   color: #cb9f75;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.alreadyhaveanaccount a:hover{
+    color: rgb(61, 57, 57);
+
+}
+.Createanaccount span{
+
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.Createanaccount a{
+
+    color: #cb9f75;
+     font-size: 20px;
+     font-weight: bold;
+ }
+ 
+ .Createanaccount a:hover{
+     color: rgb(61, 57, 57);
+ 
+ }
