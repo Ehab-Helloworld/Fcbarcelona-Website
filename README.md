@@ -4,4 +4,4 @@ I asked to make a website using HTML, CSS, javascript, and PHP for my College so
 The website for Barcelona inspired my imagination from the color of the Logo, country, and the Official website itself
 To open the website you have to download the wamp server and put the file in the directory 'www' then open it like that 
 localhost/filename
-for displaying images download them from here and put them with the file
+for displaying images download them from here and put them with the file https://drive.google.com/drive/folders/1MC5vjYXWK4MRQZfNNRExlZ_Dim8BtpjK?usp=sharing
